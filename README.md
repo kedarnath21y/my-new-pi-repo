@@ -5,11 +5,11 @@
 **Type:** Technical Documentation & Architecture Reference
 
 ## Overview
-The architecture is organized into three strictly decoupled modules. It relies on dependency injection, asynchronous background threading, and strict hardware/memory safeguards.
+The architecture is organized into three strictly decoupled modules. It relies on asynchronous background threading, and strict hardware/memory safeguards.
 
-*   **Log Module:** An asynchronous logging system designed to replace Python's standard library logger. It ensures the system never crashes because the disk is full or locked.
-*   **UART Module:** A two-layer serial driver that converts raw, unstable hardware signals into clean, safe software events.
-*   **Service Layer:** The core orchestrator that connects the modules using dependency injection and handles overall application execution.
+*   **Log Module:** logging system designed to replace Python's standard library logs
+*   **UART Module:** A two-layer serial driver
+*   **Service Layer:** The core orchestrator that connects the modules and handles overall application execution.
 
 ---
 
