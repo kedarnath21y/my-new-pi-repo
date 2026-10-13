@@ -8,7 +8,7 @@
 The architecture is organized into three strictly decoupled modules. It relies on asynchronous background threading, and strict hardware/memory safeguards.
 
 *   **Log Module:** logging system designed to replace Python's standard library logs
-*   **UART Module:** A two-layer serial driver
+*   **UART Module:** A two-layer serial driver and serial handler
 *   **Service Layer:** The core orchestrator that connects the modules and handles overall application execution.
 
 ---
