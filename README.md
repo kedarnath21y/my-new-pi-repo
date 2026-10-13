@@ -1,6 +1,3 @@
-cd firmware_project
-
-cat << 'EOF' > README.md
 # README: Firmware Architecture (UART, Log, Service)
 
 **Dated:** 12-10-2026  
